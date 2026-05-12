@@ -1,0 +1,103 @@
+
+1. Count to 10 [for loop]
+Write a for loop that prints numbers 1 through 10, each on a new line.
+Expected output:
+1
+2 
+3 
+...
+10
+
+2. Print even numbers
+Print all even numbers from 2 to 20 using a for loop.
+Expected output: 2  4  6  8  10  12  14  16  18  20
+
+3. Sum 1 to 100 
+Use a for loop to calculate and print the sum of all integers from 1 to 100.
+Expected output: 5050
+
+4. Countdown timer
+Print a countdown from 10 down to 1, then print 'Blast off!'
+Expected output: 10  9  8 ... 1  Blast off!
+
+5. Repeat a greeting
+Ask the user for their name once, then print 'Hello, <name>!' five times using loop.
+Expected output (name = Adeola): Hello, Adeola! is printed 5 times
+
+
+6. Print characters of a string
+Given the string 'Python', use a for loop to print each character on its own line.
+Expected output: P  y  t  h  o  n
+
+7. Multiplication table [for loop]
+Print the 7 times table from 7x1 to 7x12.
+Expected output: 
+7 x 1 = 7
+7 x 2 = 14 
+...
+
+
+8. Count with while loop
+Use a while loop to print numbers 1 to 10.
+Expected output: 1, 2, 3 ... 10
+
+9. While loop with user input
+Keep asking the user to enter a positive number. Stop and print it when they enter a number greater than 0.
+Expected output: Enter number: -3 / Enter number: 0 / Enter number: 5 / You entered: 5
+
+10. Factorial calculator
+Calculate the factorial of a number n entered by the user using a while loop.
+Expected output: 
+Enter n: 5 
+Factorial: 120
+
+11. Sentinel: stop on zero
+Keep reading integers from the user. When they enter 0, stop and print the total of all entered numbers.
+Expected output: Enter: 4 / Enter: 7 / Enter: 0 / Total: 11
+
+12. FizzBuzz
+Print numbers 1-50. For multiples of 3 print 'Fizz', multiples of 5 print 'Buzz', multiples of both print 'FizzBuzz'.
+Expected output: 1  2  Fizz  4  Buzz  Fizz  7 ... FizzBuzz
+
+13. Reverse a string with a loop
+Without using string slicing, use a loop to build and print the reverse of a user-entered string.
+Expected output: Enter: hello / Reversed: olleh
+
+14. Find the largest number
+Keep reading numbers from the user until they type 'done'. Print the largest number entered.
+Expected output: Enter: 12 / Enter: 47 / Enter: done / Largest: 47
+
+15. Guess the number game
+Generate a random number 1-100. Let the user guess until correct — print 'higher' or 'lower' as hints. Count attempts.
+Expected output: Guess: 50 -> lower / Guess: 25 -> higher / Guess: 37 -> correct! (3 attempts)
+
+16. List average using a loop
+Given a list of 10 numbers, use a for loop (no built-in sum() or len()) to compute and print the average.
+Expected output: numbers = 4,8,15,16,23,42,10,5,4,7,20 Average: 15.4
+
+17. Sentinel: average calculator
+Read numbers from the user; -1 is the sentinel. Print the count and average of all numbers entered (excluding -1).
+Expected output: Enter: 10 / Enter: 20 / Enter: -1 / Count: 2  Average: 15.0
+
+18. Print a number triangle
+Print a right-angled triangle of numbers with 5 rows.
+Expected output:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+19. Password retry loop
+Ask for a password up to 3 times. Print 'Access granted' if correct, 'Locked out' after 3 wrong attempts.
+Correct password: python123
+Expected output: Password: wrong / Password: wrong / Password: python123 / Access granted
+
+20. Nested sentinel: grade book
+For each student (sentinel: empty name), keep reading scores (sentinel: -1), compute their average, then move to the next student.
+Expected output: Student: Alice / Score: 85 / Score: 90 / Score: -1 -> Alice avg: 87.5 / Student: (blank) -> done
+
+
+
+
+
